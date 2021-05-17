@@ -23,7 +23,7 @@ public class ChessPosition {
 		return row;
 	}
 	
-	protected Position toPosition() {
+	protected Position toPosition() { // protected na UML é indicado com o # antes do método
 		return new Position(8 - row, column - 'a');
 	}
 	
