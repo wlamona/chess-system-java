@@ -1,5 +1,7 @@
 package boardgame;
 
+import java.util.List;
+
 public abstract class Piece {
 
 	protected Position position;
@@ -30,5 +32,10 @@ public abstract class Piece {
 			}
 		}
 		return false;
+	}
+
+	public void add(List<Piece> capturedPiece) {
+		// TODO Auto-generated method stub
+		
 	}
 }
