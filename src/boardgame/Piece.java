@@ -38,4 +38,9 @@ public abstract class Piece {
 		// TODO Auto-generated method stub
 		
 	}
+
+	public void remove(Piece capturedPiece) {
+		// TODO Auto-generated method stub
+		
+	}
 }
